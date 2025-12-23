@@ -1,7 +1,7 @@
 // app.js
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('warga-list-container');
-    const apiUrl = 'http://127.0.0.1:8000/api/wrg/';
+    const apiUrl = 'http://127.0.0.1:8000/api/warga/';
 
     // ambil token dari localStorage (DRF TokenAuth)
     const token = localStorage.getItem('authToken');
